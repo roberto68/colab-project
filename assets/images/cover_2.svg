@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345" height="200" viewBox="0 0 345 200">
+    <defs>
+        <linearGradient id="b" x1="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#B7DAFC"/>
+            <stop offset="100%" stop-color="#D17BE7"/>
+        </linearGradient>
+        <path id="a" d="M0 0h345v200H0z"/>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".15"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".6"/>
+        </linearGradient>
+        <rect id="e" width="110" height="152" x="60" rx="4"/>
+        <filter id="f" width="128.2%" height="120.4%" x="-14.1%" y="-9.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <g fill="url(#d)" mask="url(#c)" opacity=".5">
+            <g transform="matrix(-1 0 0 1 337 81)">
+                <circle cx="23.5" cy="103.5" r="3.5"/>
+                <circle cx="36.5" cy="93.5" r="3.5"/>
+                <circle cx="22" cy="85" r="5"/>
+                <circle cx="10.5" cy="74.5" r="3.5"/>
+                <circle cx="30.5" cy="46.5" r="2.5"/>
+                <circle cx="11" cy="14" r="2"/>
+                <circle cx="30.5" cy="67.5" r="3.5"/>
+                <circle cx="3.5" cy="32.5" r="3.5"/>
+                <circle cx="25.5" cy="1.5" r="1.5"/>
+                <circle cx="14" cy="54" r="4"/>
+                <circle cx="24" cy="25" r="3"/>
+            </g>
+        </g>
+        <g fill="url(#d)" mask="url(#c)" opacity=".5">
+            <g transform="translate(8 81)">
+                <circle cx="23.5" cy="103.5" r="3.5"/>
+                <circle cx="36.5" cy="93.5" r="3.5"/>
+                <circle cx="22" cy="85" r="5"/>
+                <circle cx="10.5" cy="74.5" r="3.5"/>
+                <circle cx="30.5" cy="46.5" r="2.5"/>
+                <circle cx="11" cy="14" r="2"/>
+                <circle cx="30.5" cy="67.5" r="3.5"/>
+                <circle cx="3.5" cy="32.5" r="3.5"/>
+                <circle cx="25.5" cy="1.5" r="1.5"/>
+                <circle cx="14" cy="54" r="4"/>
+                <circle cx="24" cy="25" r="3"/>
+            </g>
+        </g>
+        <g mask="url(#c)">
+            <g transform="translate(58 58)">
+                <rect width="80" height="134" x="149" y="18" fill="#24292C" rx="4"/>
+                <rect width="80" height="134" y="18" fill="#24292C" rx="4"/>
+                <g fill="#3B4247" transform="translate(180 68)">
+                    <rect width="29" height="3" y="20" rx="1.5"/>
+                    <rect width="22" height="3" x="7" y="10" rx="1.5"/>
+                    <rect width="29" height="3" rx="1.5"/>
+                </g>
+                <g fill="#3B4247" transform="translate(20 68)">
+                    <rect width="29" height="3" y="20" rx="1.5"/>
+                    <rect width="22" height="3" y="10" rx="1.5"/>
+                    <rect width="29" height="3" rx="1.5"/>
+                </g>
+                <mask id="g" fill="#fff">
+                    <use xlink:href="#e"/>
+                </mask>
+                <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+                <use fill="#3B4247" xlink:href="#e"/>
+                <path fill="#DFDFDF" d="M110.071-4.929h10v10h-10z" mask="url(#g)" transform="rotate(-45 115.071 .071)"/>
+                <text font-family="SourceSansPro-Bold, Source Sans Pro" font-size="12" font-weight="bold" mask="url(#g)">
+                    <tspan x="79.034" y="50" fill="#EFF6F6">Smart Design</tspan> <tspan x="88.388" y="65" fill="#EFF6F6">Processes</tspan>
+                </text>
+                <path fill="#D07DE7" d="M103.632 62.201h70.392v141.252h-70.392z" mask="url(#g)" opacity=".603" transform="rotate(60 138.827 132.827)"/>
+                <path fill="#D07DE7" d="M83.58 64.589h70.392v157.923H83.58z" mask="url(#g)" opacity=".603" transform="rotate(105 118.776 143.55)"/>
+                <path fill="#D07DE7" d="M91.632 85.082h70.392v141.252H91.632z" mask="url(#g)" opacity=".603" transform="rotate(75 126.827 155.708)"/>
+            </g>
+        </g>
+    </g>
+</svg>

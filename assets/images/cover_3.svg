@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345" height="200" viewBox="0 0 345 200">
+    <defs>
+        <linearGradient id="b" x1="0%" x2="98.236%" y1="100%" y2="1.764%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#E1E6E9"/>
+        </linearGradient>
+        <path id="a" d="M0 0h345v200H0z"/>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".15"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".6"/>
+        </linearGradient>
+        <rect id="e" width="110" height="152" x="60" rx="4"/>
+        <filter id="f" width="128.2%" height="120.4%" x="-14.1%" y="-9.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <g fill="url(#d)" mask="url(#c)">
+            <g transform="matrix(-1 0 0 1 337 81)">
+                <circle cx="23.5" cy="103.5" r="3.5"/>
+                <circle cx="36.5" cy="93.5" r="3.5"/>
+                <circle cx="22" cy="85" r="5"/>
+                <circle cx="10.5" cy="74.5" r="3.5"/>
+                <circle cx="30.5" cy="46.5" r="2.5"/>
+                <circle cx="11" cy="14" r="2"/>
+                <circle cx="30.5" cy="67.5" r="3.5"/>
+                <circle cx="3.5" cy="32.5" r="3.5"/>
+                <circle cx="25.5" cy="1.5" r="1.5"/>
+                <circle cx="14" cy="54" r="4"/>
+                <circle cx="24" cy="25" r="3"/>
+            </g>
+        </g>
+        <g fill="url(#d)" mask="url(#c)">
+            <g transform="translate(8 81)">
+                <circle cx="23.5" cy="103.5" r="3.5"/>
+                <circle cx="36.5" cy="93.5" r="3.5"/>
+                <circle cx="22" cy="85" r="5"/>
+                <circle cx="10.5" cy="74.5" r="3.5"/>
+                <circle cx="30.5" cy="46.5" r="2.5"/>
+                <circle cx="11" cy="14" r="2"/>
+                <circle cx="30.5" cy="67.5" r="3.5"/>
+                <circle cx="3.5" cy="32.5" r="3.5"/>
+                <circle cx="25.5" cy="1.5" r="1.5"/>
+                <circle cx="14" cy="54" r="4"/>
+                <circle cx="24" cy="25" r="3"/>
+            </g>
+        </g>
+        <g mask="url(#c)">
+            <g transform="translate(58 58)">
+                <rect width="80" height="134" x="149" y="18" fill="#24292C" rx="4"/>
+                <rect width="80" height="134" y="18" fill="#24292C" rx="4"/>
+                <g fill="#3B4247" transform="translate(180 68)">
+                    <rect width="29" height="3" y="20" rx="1.5"/>
+                    <rect width="22" height="3" x="7" y="10" rx="1.5"/>
+                    <rect width="29" height="3" rx="1.5"/>
+                </g>
+                <g fill="#3B4247" transform="translate(20 68)">
+                    <rect width="29" height="3" y="20" rx="1.5"/>
+                    <rect width="22" height="3" y="10" rx="1.5"/>
+                    <rect width="29" height="3" rx="1.5"/>
+                </g>
+                <mask id="g" fill="#fff">
+                    <use xlink:href="#e"/>
+                </mask>
+                <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+                <use fill="#3B4247" xlink:href="#e"/>
+                <text font-family="SourceSansPro-Bold, Source Sans Pro" font-size="12" font-weight="bold" mask="url(#g)">
+                    <tspan x="103.082" y="50" fill="#EFF6F6">Web</tspan> <tspan x="96.638" y="65" fill="#EFF6F6">Design</tspan>
+                </text>
+                <path fill="#DFDFDF" d="M109.071-4.929h10v10h-10z" mask="url(#g)" transform="rotate(-45 114.071 .071)"/>
+                <path fill="#F7F9FA" fill-opacity=".6" d="M53 117.5s44.542-23.135 92.6-5.135c48.058 18 41.612 0 41.612 0L170.215 153l-114.87-2.5-2.345-33z" mask="url(#g)"/>
+                <path fill="#F7F9FA" fill-opacity=".6" d="M26.006 113.865c1.16-1 26.096-17.5 73.648.5 47.552 18 82.346-5 82.346-5l-2.32 54-146.715-4.5s-8.119-44-6.959-45z" mask="url(#g)"/>
+                <path fill="#F7F9FA" fill-opacity=".6" d="M47.5 110c1-1 22.5-17.5 63.5.5s71-5 71-5l-2 54L53.5 155s-7-44-6-45z" mask="url(#g)"/>
+            </g>
+        </g>
+    </g>
+</svg>
