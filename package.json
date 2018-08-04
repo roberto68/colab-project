@@ -1,0 +1,22 @@
+{
+  "name": "colab_project",
+  "version": "1.0.0",
+  "description": "Microverse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto68/colab-project.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roberto68/colab-project/issues"
+  },
+  "homepage": "https://github.com/roberto68/colab-project#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
