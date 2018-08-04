@@ -53,15 +53,25 @@ html {
   box-sizing: border-box; 
   
 }
-.background-image {
-  width: 1600px;
-  height: 823px;
-  object-fit: contain;
+body {
+  background-image: url('/assets/images/background-image.jpg');
+  width: 100%;
+
 }
 
 
 .logo {
   float : left;
+  width: 79px;
+  height: 25px;
+  font-family: SourceSerifPro;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 nav a {
@@ -78,22 +88,69 @@ nav a {
   clear: both;
 }
 
+.menu-icon {
+  width: 23px;
+  height: 19px;
+  
+}
+
+.right-links {
+  font-family: SourceSerifPro;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8798a4;
+}
+
+/* Header */
 
 
+
+h1, h5 {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: SourceSerifPro;
+  color: #ffffff;
+}
+
+h5 {
+  width: 307px;
+  height: 23px;
+  opacity: 0.5;
+  font-size: 18px;
+
+}
+
+h1 {
+  width: 341px;
+  height: 45px;
+  font-size: 36px;
+
+}
 
 /* CSS Grid */
 
 .grid-container {
+  width: 90%;
+  margin: auto 5%;
   display: grid;
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   grid-template-columns: auto auto auto;
   background-color: rgba(255, 255, 255);
-  padding: 10px;
+  padding:10px;
+  
 }
 .grid-item {
   background-color: rgba(255, 255, 242);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px  rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
