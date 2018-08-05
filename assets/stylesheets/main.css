@@ -55,7 +55,7 @@ html {
 }
 body {
   background-image: url('/assets/images/background-image.jpg');
-  background-position: center center;
+  width: 100%;
 
 }
 
@@ -107,10 +107,7 @@ nav a {
 
 /* Header */
 
-header {
-  margin-top: 5em;
 
-}
 
 h1, h5 {
   text-align: center;
@@ -124,35 +121,67 @@ h1, h5 {
 }
 
 h5 {
-  
+  width: 307px;
+  height: 23px;
   opacity: 0.5;
   font-size: 18px;
 
 }
 
 h1 {
-  
+  width: 341px;
+  height: 45px;
   font-size: 36px;
 
 }
 
 /* CSS Grid */
 
-.grid-container {
+.main {
   width: 90%;
   margin: auto 5%;
-  display: grid;
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
-  grid-template-columns: auto auto auto;
   background-color: rgba(255, 255, 255);
   padding:10px;
 
 }
-.grid-item {
+.item {
   background-color: rgba(255, 255, 242);
   border: 1px  rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
+	    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 12px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 33%;
+    padding: 0 6px;
+}
+
+@media (max-width: 720px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 500px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.content-navbar {
+    display: flex;
+    background-color: #333;
 }
