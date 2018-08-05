@@ -142,7 +142,8 @@ h1 {
     background-color: white;
     width: 90%;
     margin: 15% 5% 10% 5%;
-
+    box-shadow: 0 2px 4px 0 rgba(135, 152, 164, 0.3);
+    height: 650px;
 
 }
 
@@ -188,9 +189,7 @@ div.main-nav {
     margin-left: 20%;
 }
 
-.next-page{
-    float: right;
-}
+
 
 .sub-head-left {
     float: left;
@@ -235,4 +234,23 @@ div>img+span {
 
 span+h2 {
     font-weight: 700;
+}
+
+h2+span+div {
+    margin: 10px auto; 
+    border-bottom: solid 1px #e5e7e9;
+}
+
+div>div>span>img {
+    width: 100%;
+}
+
+.next-page {
+    margin-left: 87%;
+    margin-top: 20px;
+}
+
+.next-page>span {
+    color: #24292c;
+    cursor: pointer;
 }
