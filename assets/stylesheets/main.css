@@ -55,7 +55,7 @@ html {
 }
 body {
   background-image: url('/assets/images/background-image.jpg');
-  width: 100%;
+  background-position: center center;
 
 }
 
@@ -107,7 +107,10 @@ nav a {
 
 /* Header */
 
+header {
+  margin-top: 5em;
 
+}
 
 h1, h5 {
   text-align: center;
@@ -121,16 +124,14 @@ h1, h5 {
 }
 
 h5 {
-  width: 307px;
-  height: 23px;
+  
   opacity: 0.5;
   font-size: 18px;
 
 }
 
 h1 {
-  width: 341px;
-  height: 45px;
+  
   font-size: 36px;
 
 }
