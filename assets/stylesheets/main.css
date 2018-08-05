@@ -56,7 +56,6 @@ html {
 body {
   background-image: url('/assets/images/background-image.jpg');
   width: 100%;
-
 }
 
 
@@ -107,8 +106,6 @@ nav a {
 
 /* Header */
 
-
-
 h1, h5 {
   text-align: center;
   font-weight: normal;
@@ -135,23 +132,49 @@ h1 {
 
 }
 
-/* CSS Grid */
-
-.grid-container {
+.content {
   width: 90%;
   margin: auto 5%;
-  display: grid;
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
-  grid-template-columns: auto auto auto;
   background-color: rgba(255, 255, 255);
   padding:10px;
-
 }
-.grid-item {
-  background-color: rgba(255, 255, 242);
-  border: 1px  rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+
+/
+.navbar-content {
+    display: flex;
+    background-color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 55px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 33%;
+    max-width: 25%;
+    padding: 0 6px;
+}
+
+.column item {
+    margin-top: 14px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a 2 column-layout instead of 3 columns */
+@media (max-width: 720px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 480px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
